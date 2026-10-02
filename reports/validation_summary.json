@@ -1,0 +1,23 @@
+{
+  "hello_numerai": {
+    "validation_eras": 640,
+    "corr_mean": 0.00982692636599628,
+    "corr_std": 0.012140221143654397,
+    "corr_sharpe": 0.8094520066574521,
+    "max_drawdown": 0.10305742689833508
+  },
+  "feature_neutralization": {
+    "validation_eras": 640,
+    "corr_mean": 0.010112065857532085,
+    "corr_std": 0.012340663688271417,
+    "corr_sharpe": 0.819410212689177,
+    "max_drawdown": 0.11558094307846822
+  },
+  "target_ensemble": {
+    "validation_eras": 640,
+    "corr_mean": 0.01012071630637552,
+    "corr_std": 0.012339221966633238,
+    "corr_sharpe": 0.8202070060610931,
+    "max_drawdown": 0.08931556978821842
+  }
+}
