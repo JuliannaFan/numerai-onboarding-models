@@ -1,0 +1,11 @@
+.venv*/
+.env
+.env.*
+data/
+artifacts/
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+/configure_mcp.py
+/publish_audit.json
