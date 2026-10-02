@@ -1,0 +1,49 @@
+{
+  "python": "3.12.14",
+  "dependencies": {
+    "cloudpickle": "3.1.1",
+    "lightgbm": "4.5.0",
+    "numpy": "2.1.3",
+    "pandas": "2.3.1",
+    "scipy": "1.16.0",
+    "scikit-learn": "1.6.1"
+  },
+  "data_version": "v5.3",
+  "targets": [
+    "target_ender_60",
+    "target_teager2b_60"
+  ],
+  "training_rows": 2746268,
+  "training_eras": 574,
+  "feature_count": 267,
+  "parameters": {
+    "n_estimators": 2000,
+    "learning_rate": 0.01,
+    "max_depth": 5,
+    "num_leaves": 31,
+    "colsample_bytree": 0.1,
+    "n_jobs": 4,
+    "random_state": 42,
+    "verbosity": -1,
+    "force_col_wise": true
+  },
+  "publication_check": {
+    "live_round": 1367,
+    "rows": 6914,
+    "exact_prediction_match": true
+  },
+  "files": {
+    "hello_numerai.pkl": {
+      "sha256": "b300b143edf2661b900b9437602f6d83d57bfb27597c4dae93fa52d11e8dd4d7",
+      "bytes": 6611569
+    },
+    "feature_neutralization.pkl": {
+      "sha256": "6df2ecec1377ce695cddfcb1ff0c47b9639e4bcc282116fb52716b2a319ce7e6",
+      "bytes": 6614738
+    },
+    "target_ensemble.pkl": {
+      "sha256": "10d2ce7b90a168be3eac4618c51ad6693a70b2e3a054979f23696045ce71335c",
+      "bytes": 13211696
+    }
+  }
+}
